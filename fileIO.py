@@ -10,6 +10,7 @@ print time.localtime(time.time())
 while 1:
     line = fo.readline()
     lines += 1
+    lines += 1
     if not line:
         break
     if line.find("select") < 0:
